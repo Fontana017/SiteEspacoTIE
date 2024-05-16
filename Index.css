@@ -1,0 +1,40 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.navbar {
+    background-color: #dea6f0;
+}
+
+.container-fluid .navbar-brand img {
+    width: 75px;
+    height: 75px;
+}
+
+.container-fluid .collapse .search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-fluid .collapse .search input[type="text"] {
+    width: 38%;
+    background-color: #d397e7;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container-fluid .collapse .search button {
+    width: 25%;
+    background-color: transparent;
+
+}
+
+
+/* background-color: #d397e7; */
