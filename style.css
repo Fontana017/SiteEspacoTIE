@@ -12,8 +12,6 @@
 }
 
 .main {
-    /* min-width: 360px; */
-    /* max-width: 852px; */
     margin: auto;
     display: flex;
     justify-content: center;
@@ -22,9 +20,9 @@
     background-color: #fbf5ff;
 
 }
-.main .title{
+
+.main .title {
     margin-top: 50px;
-    /* background-color: black; */
     width: 100%;
     height: 300px;
     display: flex;
@@ -33,15 +31,11 @@
 
 }
 
- .main .title img {
+.main .title img {
     height: 100%;
     width: 80%;
     border-radius: 8px;
-
-
-
-    
-} 
+}
 
 .navbar {
     background-color: var(--cor-quarta);
@@ -82,7 +76,6 @@
 
 .sobre {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 10px;
 }
 
 .sobre h2 {
@@ -92,7 +85,6 @@
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    margin: 10px;
 }
 
 .sobre h4 {
@@ -108,27 +100,79 @@
     margin-right: 15px;
 }
 
-
-.sobre .hitory td img {
-    width: 150px;
-    height: 150px;
+.sobre .hitory {
+    padding-left: 3%;
+    padding-top: 5%;
 }
 
-.sobre .tecnicas img{
-    margin: 2px;
-    padding-left: 5px;
+.sobre .hitory .HistoryEcr {
+    padding-top: 1%;
+}
+
+.sobre .hitory .historyImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sobre .hitory .historyImg img {
+    width: 13%;
+    height: 13%;
+}
+
+.sobre .Valores {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    height: 400px;
+    padding-left: 3%;
+}
+
+.sobre .Valores .imgValores {
     justify-content: center;
     align-items: center;
+    display: flex;
+    width: 50%;
+    height: 100%;
 }
 
-.sobre .teste{
+.sobre .Valores .imgValores img {
+    width: 50%;
+    height: 90%;
+    border-radius: 10%;
+
+}
+
+.sobre .tecnicas {
+    padding-left: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sobre .tecnicas h4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sobre .tecnicas p{
+   font-size: 12px;
+}
+
+ .sobre .tecnicas img {
+   padding-left: 80px;
+   border-radius: 10%;
+} 
+
+.sobre .teste {
     background-color: #795EA4;
     display: flex;
     flex-direction: column;
-    
 }
 
-.sobre .ultima-Logo{
+.sobre .ultima-Logo {
     padding-top: 5px;
     display: flex;
     justify-content: center;
@@ -136,22 +180,22 @@
     width: 100%;
 }
 
-.sobre .ultima-Logo img{   
+.sobre .ultima-Logo img {
     width: 100px;
     height: 100px;
 }
 
-.sobre .teste .contatos{
+.sobre .teste .contatos {
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 
-   
+
 }
 
-.sobre .teste .contatos img{
+.sobre .teste .contatos img {
     width: 45px;
     height: 45px;
     margin: 2px;
